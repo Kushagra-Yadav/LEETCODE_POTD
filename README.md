@@ -6,4 +6,9 @@ Now the last is popped and removed from map as well.
 Since last was swapped so its index is updated.
 }}
 
+{{
+17-01-2024
+Maintained a map to store frequency of each element
+Took a set and checked that if such frequency existed so return false else true
+}}
 
