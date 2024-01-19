@@ -23,3 +23,11 @@ if exist than ans+=map[sum-goal]
 Now in the map add the current sum and increase the frequency
 }}
 
+{{
+19-01-2024
+will start traversing complete column for row=0
+At each point we have 3 path and every path cause increase in row
+when row is last return that value
+Store in dp but don't initialize with -1 as we can have negative values
+}}
+
