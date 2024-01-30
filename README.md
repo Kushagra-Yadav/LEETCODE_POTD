@@ -41,3 +41,8 @@ we get number of subarray in which that index is minimum.
 Do it for all index and return sum.
 }}
 
+30-01-2024
+First the checking of operator is performed as stoi gives error on it.
+If operator so there must be 2 element for it to be valid
+At the end element present will be ans.
+}}
