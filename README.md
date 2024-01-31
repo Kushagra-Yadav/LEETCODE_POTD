@@ -46,3 +46,13 @@ First the checking of operator is performed as stoi gives error on it.
 If operator so there must be 2 element for it to be valid
 At the end element present will be ans.
 }}
+
+31-01-2024
+Based on the concept of monotonic stack.
+Traversing from end to start.
+if stack is empty then initialize answer for that index as 0 and push index to stack.
+if not empty check that current index temp is greater than equal to top so keep popping from stack until condition fails or stack become empty.
+Now if stack is not empty than we got the temperature just greater than current so answer for that index will be difference of that index and top element of stack else if empty stack so answer will be 0.
+Now push that current index to stack.
+}}
+
