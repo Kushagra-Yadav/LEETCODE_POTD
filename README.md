@@ -1,4 +1,12 @@
 {{
+01-02-2024
+We have to get three element for each array such that max and min value have difference less than equal to k.
+To get most near value for i such that difference is less than equal to k we sort vector
+Now we traverse in size of three and check for 1st and 3rd element difference is less than equal to k and keep pushing in answer and at any valid index if it do not hold true we return {} 
+If all element are traversed then we return answer
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
