@@ -7,6 +7,17 @@ If all element are traversed then we return answer
 }}
 
 {{
+02-02-2024
+We will initially have element in queue from 1 to 8
+12 23 34 45 56 67 78 89 (9 skipped as 10 will not be appended as it breaks the rule of 1 difference)
+check frontElement is in range inclusive so push in answer
+Will pop the element find the remainder and then 
+if rem <=8
+check that ((frontElement*10)(rem+1)) is less than equal to high then push in queue 
+after queue is empty return answer
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
