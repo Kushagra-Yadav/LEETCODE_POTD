@@ -18,6 +18,14 @@ after queue is empty return answer
 }}
 
 {{
+03-02-2024
+At every index we go and take element from that index to index+k 
+every time we looks maximum till we traverse and then j-i+1 for replacing all till we traversed with maximum till traversed then  call from next index this will return an answer 
+return maximum of all answers
+}}
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
