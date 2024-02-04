@@ -26,6 +26,18 @@ return maximum of all answers
 
 
 {{
+04-02-2024
+We make unordered_map to store element and frequency of t
+Now we have left and right increasing,decreasing window size
+we move right and do element frequecy increase and check that all of values in map of t are present in map of s
+if any of it is less than that in of t we break then move right
+when we have all values present then we decrease frequency of left and increase left 
+now again we check that previous condition is satisified so we have less length else we move right 
+every time we get less length we store it as best length and start as left
+at end if answer was 1e9 so no string found else return substring start from l and with best length
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
