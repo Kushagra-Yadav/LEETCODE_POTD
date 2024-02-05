@@ -37,6 +37,16 @@ every time we get less length we store it as best length and start as left
 at end if answer was 1e9 so no string found else return substring start from l and with best length
 }}
 
+
+05-02-2024
+{{
+we have to find the element from start whose total frequency is 1
+All elements are in lower case so we traverse and keep account of there frequency in vector of 26
+Now we traverse string from beginning and check if at that position element frequency is 1 the particular index becomes the answer and we return.
+Even after traversing string completely if we didn't found the answer return -1
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
