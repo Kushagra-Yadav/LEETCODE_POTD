@@ -46,6 +46,13 @@ Now we traverse string from beginning and check if at that position element freq
 Even after traversing string completely if we didn't found the answer return -1
 }}
 
+06-02-2024
+{{
+Traverse index wise then create its copy and sort the copy and push in map with key of that as sorted temp and value as at index.
+Now traverse the map and push their value of key in vector of vector
+return vector of vector as answer
+}}
+
 
 {{
 16-01-2024
