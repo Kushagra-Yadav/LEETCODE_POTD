@@ -54,6 +54,16 @@ return vector of vector as answer
 }}
 
 
+
+07-02-2024
+{{
+Will make a map of char and string such that a character will  correspond to string of that character with size as number of its occurence .
+Now create a vector of pair with char and size of thar character and sort on basis of size
+string ans=""
+Now we traverse in vector and will see the first element of pair and append its corresponding string from map
+finally return ans
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
