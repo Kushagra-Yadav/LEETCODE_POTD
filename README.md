@@ -64,6 +64,12 @@ Now we traverse in vector and will see the first element of pair and append its 
 finally return ans
 }}
 
+08-02-2024
+{{
+Will take square root of number,now from 1 to that root will substract the square from initial number and do calculation for the new number we get and 1+ for new number answer
+will return minimum ans for the initial value 
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
