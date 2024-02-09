@@ -70,6 +70,29 @@ Will take square root of number,now from 1 to that root will substract the squar
 will return minimum ans for the initial value 
 }}
 
+
+09-02-2024
+{{
+Sort them so that we have to check modulo one way
+We maintain maxlength and index of maxlength
+we create vector of prevIndex as -1 and LIS as 1
+we move i from 0 to n
+    we have value toAdd=0 to LIS[i] and index=-1
+    We move j from i-1 to 0
+       if nums[i]%nums[j]==0 and LIS[j]>toAdd
+            toAdd=LIS[j] index=j
+     LIS[i]+=toAdd;
+     prevIndex[i]=j
+     if(LIS[i]>maxLength)
+         maxLength=LIS[i] index of maxLength=i
+
+while indexofmaxLength>=0
+       we push the nums[indexofmaxlength] to answer
+       indexofmaxlength=prevIndex[indexofmaxlength]
+  return ans
+       
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
