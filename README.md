@@ -93,6 +93,26 @@ while indexofmaxLength>=0
        
 }}
 
+
+10-02-2024
+{{
+Method 1 :
+   Create all possible substring and store i,j that is from i to j is it palindrome or not.If palindrome increase count 
+   Since memoized every substring is checked at constant time hence T.C. O(N*N)
+
+Method 2 :
+   By Tabulation we do store that for 1 length substring is it palindrome
+   Then for 2 length substring is it palindrome
+   L>2 we check the last indices and if they are equal they go form i+1 and j-1 (length will be less and we have all answer for lower length stored )
+   Now we check that for current we got palindrome or not and increase count accordingly
+
+Method 3:
+We keep every element as center :  
+                                    For odd length we calculate is it palindrome and how many palindrome will exist with it as center
+                                    For even length that index and its just greater index and and how many palindrome will exist with it
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
