@@ -113,6 +113,18 @@ We keep every element as center :
 }}
 
 
+11-02-2024
+{{
+Every time we move to next row in both robot thus row value is same but column value may vary and have 9 combinations
+we store answer for left robot and add cherry for right robot also if column is different as row will be same 
+then we take 1st column  move for left and 3 combination for right then for 2nd of left and 3 for right again 3rd for left and 3 for right and call recursive and keep count for maxResult
+finally asnwer +  maxRsult is returned
+if row reaches out of bound return 0
+if column reaches out of bound return 0
+since i,j1,j2 are changing so memoize them 
+
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
