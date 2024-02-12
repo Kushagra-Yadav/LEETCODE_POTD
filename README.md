@@ -125,6 +125,15 @@ since i,j1,j2 are changing so memoize them
 
 }}
 
+
+
+12-02-2024
+{{
+We will have majority element always remaining if we cancel it will other element
+let's heave freq=0 then the index element is majority and increase freq else we decrease or increase freq
+At then end element is majority element
+
+}}
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
