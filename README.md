@@ -134,6 +134,15 @@ let's heave freq=0 then the index element is majority and increase freq else we 
 At then end element is majority element
 
 }}
+
+13-02-2024
+{{
+Traverse the vector and check for palindrome 
+if palindrome then would have been returned else return empty string
+
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
