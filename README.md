@@ -143,6 +143,13 @@ if palindrome then would have been returned else return empty string
 }}
 
 
+14-02-2024
+{{
+Divide positive and negative in two different vector and store them in order.
+Now in original array insert two elements simultaneously.
+
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
