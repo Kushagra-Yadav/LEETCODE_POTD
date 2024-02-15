@@ -150,6 +150,21 @@ Now in original array insert two elements simultaneously.
 
 }}
 
+
+
+
+15-02-2024
+{{
+Sort them so that we can check for the maximum side.
+We take first two as the side and check for 3rd element and if left sum > index value check if it is max perimeter
+When we go to 3rd index we have 
+   a0+a1>a3 or a1+a2>a3 or a0+a2>a3 or a0+a1+a2>a3
+   if a0+a1>a3 then even we add a2 to left it will again hold (i.e. a0+a1+{a2}>a3) and also increase the perimeter
+   Every time from 2nd index we keep it as maximum side check for the possibity of polygon if it can make polygon,we update the perimeter if greater than we held in the past.
+Finally return the maximum perimeter.
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
