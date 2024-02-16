@@ -165,6 +165,24 @@ Finally return the maximum perimeter.
 }}
 
 
+
+{{
+16-02-2024
+Store the element in map with there frequency.We have the unique elements as key.To have minimum unique elements on removal we will try to remove those with minimum frequency.
+The maximum value of frequency can be equal to array size when all element are equal.So we create that size vector.
+We store the frequecy of frequency in vector so that we can traverse from start and remove the minimum frequency to get mimimum unique.
+We check for 1->3 2->4 5->4 i,e there are 3 element with frequency 1,4 with freq 2 and 4 with freq 5
+No size of map was the answer if to remove was 0 but we have k.
+We traverse from 1 to array size i,e, vector size and see how much we can remove 
+                       i.e.   min(k/freq,countOfFreq[freq]) which will cancel the set of size freq and countOfFreq but k is number that will be k- (minimum  * freq)
+                                  ans will be reduced by minimum as this many unique value get removed.
+                                  if k==0 then we return ans
+we return ans
+}}
+
+
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
