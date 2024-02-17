@@ -192,6 +192,15 @@ Since last was swapped so its index is updated.
 }}
 
 {{
+17-02-2024
+We might think DP but it will cause TLE and memory limit exceeded.
+We will try to jump the maximum heights with ladder and remaining with bricks.
+If we have next height less than equal to current,we jump without any ladder or bricks.
+When height is greater we push diffeerence in priority queue.When priority queue size is greater than number of ladder we will try to remove minimum of priority with brick as maximum will be taken care by ladder.If brick is not able to take care of smallest difference of height then we cannot jump further.
+}}
+
+
+{{
 17-01-2024
 Maintained a map to store frequency of each element
 Took a set and checked that if such frequency existed so return false else true
