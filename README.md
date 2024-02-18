@@ -201,6 +201,19 @@ When height is greater we push diffeerence in priority queue.When priority queue
 
 
 {{
+18-02-2024
+use a priority queue to track the end times of ongoing meetings (min heap based on end times).
+Use a set to store available rooms.
+Sort the meetings based on their start times.
+Iterate through the sorted meetings:
+Release rooms whose meetings have ended.
+If no available rooms, delay the meeting with the same duration.
+Assign the meeting to the lowest available room.
+Update the priority queue and set accordingly.
+Count the number of meetings in each room and find the room with the maximum meetings.
+}}
+
+{{
 17-01-2024
 Maintained a map to store frequency of each element
 Took a set and checked that if such frequency existed so return false else true
