@@ -230,6 +230,14 @@ if exist than ans+=map[sum-goal]
 Now in the map add the current sum and increase the frequency
 }}
 
+
+{{
+19-02-2024
+Negative and zero can never come in any power of +2 \.
+Take log with base 2 and if there ceil and floor value are equal then they are of power 2
+}}
+
+
 {{
 19-01-2024
 will start traversing complete column for row=0
