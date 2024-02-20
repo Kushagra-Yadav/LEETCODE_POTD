@@ -236,7 +236,15 @@ Now in the map add the current sum and increase the frequency
 Negative and zero can never come in any power of +2 \.
 Take log with base 2 and if there ceil and floor value are equal then they are of power 2
 }}
+Count the number of meetings in each room and find the room with the maximum meetings.
+}}
 
+{{
+20-02-2024
+We must do XOR of 0 to n now we will get XOR 0 for all that occur in pair that is in the index value, result will be the missing one.
+If we assume all indexes to be there value itself so we will have n as answer.
+So we have intitial answer as n now we do its XOR with index value and index number and at the end return answer.
+}}
 
 {{
 19-01-2024
