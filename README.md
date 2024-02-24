@@ -239,12 +239,28 @@ Take log with base 2 and if there ceil and floor value are equal then they are o
 Count the number of meetings in each room and find the room with the maximum meetings.
 }}
 
+
+
 {{
 20-02-2024
 We must do XOR of 0 to n now we will get XOR 0 for all that occur in pair that is in the index value, result will be the missing one.
 If we assume all indexes to be there value itself so we will have n as answer.
 So we have intitial answer as n now we do its XOR with index value and index number and at the end return answer.
 }}
+
+
+{{
+24-02-2024
+Sort on the basis of timings
+We have 0 and first person as secret knowers.
+For all meetings 
+We traverse for particular timing and make DSU of people present in meeting at that time and we store people for that time in currMeetingPeoples vector
+Now for a particular time all those present in currMeetingPeople who have same parent as 0 will be knowing secret rest will be reset as they will not know
+
+In end all those from 0 to n-1 whose parent are same as that of parent of 0 will be our answer as the secret have reched to them
+}}
+
+
 
 {{
 19-01-2024
