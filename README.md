@@ -261,6 +261,11 @@ In end all those from 0 to n-1 whose parent are same as that of parent of 0 will
 }}
 
 
+{{
+26-02-2024
+If two tree are same then there traversal will be same and if point variation is encounterd it means we tree are different.
+}}
+
 
 {{
 19-01-2024
