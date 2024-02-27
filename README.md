@@ -181,17 +181,6 @@ we return ans
 }}
 
 
-
-
-{{
-16-01-2024
-Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
-For removal,find the element index and swap with last element.
-Now the last is popped and removed from map as well.
-Since last was swapped so its index is updated.
-}}
-
-{{
 17-02-2024
 We might think DP but it will cause TLE and memory limit exceeded.
 We will try to jump the maximum heights with ladder and remaining with bricks.
@@ -212,24 +201,6 @@ Assign the meeting to the lowest available room.
 Update the priority queue and set accordingly.
 Count the number of meetings in each room and find the room with the maximum meetings.
 }}
-
-{{
-17-01-2024
-Maintained a map to store frequency of each element
-Took a set and checked that if such frequency existed so return false else true
-}}
-
-{{
-18-01-2024
-Maintain a sum from 0 and map for storing frequency count
-Iterate over the array and :
-first add index value to sum
-second if sum==goal increase count
-check that (sum-goal) exist in map sum = 1 1 2 3 4  //goal=2    subarray(0,3) and subarray=(1,3) both gives 2; map[3-2] will give 2 at index 3
-if exist than ans+=map[sum-goal]
-Now in the map add the current sum and increase the frequency
-}}
-
 
 {{
 19-02-2024
@@ -265,6 +236,39 @@ In end all those from 0 to n-1 whose parent are same as that of parent of 0 will
 26-02-2024
 If two tree are same then there traversal will be same and if point variation is encounterd it means we tree are different.
 }}
+
+{{
+27-02-2024
+Foar a node at left maxmimum we can go and at right maximum we can go there sum will be diameter
+For its immediate parent we must return 1(for its distance from parent ) + maximum depth child can undergo so parent will not be required to recalculate it again.
+}}
+
+
+{{
+16-01-2024
+Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
+For removal,find the element index and swap with last element.
+Now the last is popped and removed from map as well.
+Since last was swapped so its index is updated.
+}}
+
+{{
+17-01-2024
+Maintained a map to store frequency of each element
+Took a set and checked that if such frequency existed so return false else true
+}}
+
+{{
+18-01-2024
+Maintain a sum from 0 and map for storing frequency count
+Iterate over the array and :
+first add index value to sum
+second if sum==goal increase count
+check that (sum-goal) exist in map sum = 1 1 2 3 4  //goal=2    subarray(0,3) and subarray=(1,3) both gives 2; map[3-2] will give 2 at index 3
+if exist than ans+=map[sum-goal]
+Now in the map add the current sum and increase the frequency
+}}
+
 
 
 {{
