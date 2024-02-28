@@ -243,6 +243,10 @@ Foar a node at left maxmimum we can go and at right maximum we can go there sum 
 For its immediate parent we must return 1(for its distance from parent ) + maximum depth child can undergo so parent will not be required to recalculate it again.
 }}
 
+{{
+28-02-2024
+From each node call for child with depth +1 i.e 1 more than initial and store max depth when there is depth greater than maxdepth sotre it in answer
+}}
 
 {{
 16-01-2024
