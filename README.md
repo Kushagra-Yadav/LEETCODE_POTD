@@ -249,6 +249,14 @@ From each node call for child with depth +1 i.e 1 more than initial and store ma
 }}
 
 {{
+29-02-2024
+Check for level and value 
+    if level is even check for strictly increasing odd integer
+    if level is odd check for strictly decreasing even integer
+}}
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
