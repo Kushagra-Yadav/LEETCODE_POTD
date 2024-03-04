@@ -256,7 +256,7 @@ Check for level and value
 }}
 
 {{
-03-02-2024
+04-03-2024
     Sort the tokens
     For reducing power reduce the from the lowest i.e. left side and to decrease score, add the maximum power i.e. right side.If none of the two happen break.
     Every time store the maximum score.
