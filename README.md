@@ -255,7 +255,13 @@ Check for level and value
     if level is odd check for strictly decreasing even integer
 }}
 
+{{
+03-02-2024
+    Sort the tokens
+    For reducing power reduce the from the lowest i.e. left side and to decrease score, add the maximum power i.e. right side.If none of the two happen break.
+    Every time store the maximum score.
 
+}}
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
