@@ -260,8 +260,18 @@ Check for level and value
     Sort the tokens
     For reducing power reduce the from the lowest i.e. left side and to decrease score, add the maximum power i.e. right side.If none of the two happen break.
     Every time store the maximum score.
-
 }}
+
+{{
+05-03-2024
+    let we have two pointer at beginning and end
+    Until beginning is less than end
+        If they are not equal we return the size 
+        else if they are equal the value is stored then move toward right from beginning till equal to value or less then end 
+          do smae from end toward left till equal to value and greater than equal to beginning.
+    When loop terminates we return right-left+1 as remaining size
+}}
+    
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
