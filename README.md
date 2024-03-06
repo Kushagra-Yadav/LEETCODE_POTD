@@ -271,6 +271,13 @@ Check for level and value
           do smae from end toward left till equal to value and greater than equal to beginning.
     When loop terminates we return right-left+1 as remaining size
 }}
+
+
+{{
+06-03-2024
+  Hare and Tortoise Problem
+   Take two pointer slow and fast.Move slow by one and fast by two.If they meet then cycle.If they point null so no cycle.
+}}
     
 {{
 16-01-2024
