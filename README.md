@@ -278,6 +278,13 @@ Check for level and value
   Hare and Tortoise Problem
    Take two pointer slow and fast.Move slow by one and fast by two.If they meet then cycle.If they point null so no cycle.
 }}
+
+{{
+08-03-2024
+  Store the frequency in vector of size 100 (size given in quest) and keep maximum updating.
+  Now traverse vector and increase counter if the frequency of element is equal to maximum
+  return counter
+}}
     
 {{
 16-01-2024
