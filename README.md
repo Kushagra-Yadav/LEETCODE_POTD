@@ -285,7 +285,13 @@ Check for level and value
   Now traverse vector and increase counter if the frequency of element is equal to maximum
   return counter
 }}
-    
+
+{{
+09-03-2024
+  Method-1: Two pointer approach 
+  Method-2: Binary Search
+  Method-3: Use hashMap
+}}
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
