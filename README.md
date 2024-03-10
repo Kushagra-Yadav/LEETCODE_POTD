@@ -292,6 +292,13 @@ Check for level and value
   Method-2: Binary Search
   Method-3: Use hashMap
 }}
+
+{{
+10-03-2024
+ Sort them and move i and j from 0
+ For redundant element check for i and j that they in bound and if equal to previous element move forward.
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
