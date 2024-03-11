@@ -299,6 +299,14 @@ Check for level and value
  For redundant element check for i and j that they in bound and if equal to previous element move forward.
 }}
 
+
+{{
+11-03-2024
+  For s string store the number of its ocurrences in vector.
+  Now traverse for order string and since all element are unique and if a character occured in order it may be ocurring multiple times in s and as per rules that if x appear before y then in result also it must 
+  hold So if ouccrence of character from order exists then finish its all ocurrences,At the end remaining of vector are finished.
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
