@@ -308,6 +308,12 @@ Check for level and value
 }}
 
 {{
+15-03-2024
+   Since here we have zero and all non negative value this technique can be used.
+   We can get all subarray possible for <=goal and subtract all subarray <=gola-1 from <=goal will get us all subarray=goal.
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
