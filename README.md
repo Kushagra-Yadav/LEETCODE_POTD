@@ -313,6 +313,16 @@ Check for level and value
    We can get all subarray possible for <=goal and subtract all subarray <=gola-1 from <=goal will get us all subarray=goal.
 }}
 
+
+{{
+16-03-2024
+  Lets take that, 1 as 1 and 0 as -1 .
+  When we find a sum for first time will store in map else when it do reoccur mean (3 and .... again 3 so it mean this window sum is zero and size is to maximum so will store first unoccured occcurence)
+  than ( 1//s==1//i=0  0//s==0//i=1  1//s==1//i=2  1//s==2//i=3  0//s==1//i=4  ) so j-firstOccurence(pref_sum).To take the case whne we have zero as sum so insert m[0]=-1
+  Update max length everytime and return the answer.
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
