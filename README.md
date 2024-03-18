@@ -324,6 +324,14 @@ Check for level and value
 
 
 {{
+18-03-2024
+  Take the end as [0][2] and counter as 1 and now take index :
+  if current start ([i][1]) is less than end take it and also update the end as min of current end and current [i][2] as this will be maximum end to burst both  ballons
+  else update the end as [i][2] and increase counter
+}}
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
