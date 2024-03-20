@@ -331,6 +331,14 @@ Check for level and value
 }}
 
 
+
+{{
+20-03-2024
+ from 0  Move a-1 for left and b for right.
+  Now connect next of left with list2 head and list2 last element with next of right and return list1.
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
