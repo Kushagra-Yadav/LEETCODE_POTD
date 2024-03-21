@@ -220,6 +220,7 @@ So we have intitial answer as n now we do its XOR with index value and index num
 }}
 
 
+
 {{
 24-02-2024
 Sort on the basis of timings
@@ -338,6 +339,13 @@ Check for level and value
   Now connect next of left with list2 head and list2 last element with next of right and return list1.
 }}
 
+{{
+21-03-2024
+ Standard reverse linked list question.
+ Have prev curr and nxt in sequence
+ No connect curr with prev and make prev as curr and curr as nxt
+ At end when curr is null return prev as it will head of reversed linked list.
+}}
 
 {{
 16-01-2024
