@@ -353,6 +353,14 @@ Check for level and value
  Depending on even odd check from middle or next of middle and first that corresponding values are equal or not.
 }}
 
+
+{{
+23-03-2024
+ Bifurcate the LL into two half.Second half starts from the mid element.
+ Take the node pointer from first and second list (obviously head) ,connect the first to second and second to next of first (kept an pointer already ) move both first and second to next .
+ If next of first is null so break out of loop and connect next of first to second.Return the head initial i.e. at the start.
+}}
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
