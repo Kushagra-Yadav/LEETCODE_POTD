@@ -362,6 +362,16 @@ Check for level and value
 }}
 
 {{
+24-03-2024
+ All the element will be from 1 to n and one repeating so since one element will atleast repeat.Now it is similar to floyd algo to detect cycle where value denotes the index of next element.
+ Now take slow and fast at index 0.
+ Move slow by one and fast by two till both are not equal.
+ Not distance of slow/fast (since equal) from repeated number will be same from the start (2*slow=fast)
+ Now again move fast to 0th index and then move slow and fast by 1 until not equal now when equal we will get repeated number.
+}}
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
