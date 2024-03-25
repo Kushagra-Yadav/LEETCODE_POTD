@@ -370,6 +370,12 @@ Check for level and value
  Now again move fast to 0th index and then move slow and fast by 1 until not equal now when equal we will get repeated number.
 }}
 
+{{
+25-03-2024
+  Get the ToGoIndex as index value currently on and then subtract 1 ,now got to ToGoIndex and make it multiply by -1,if it was already -1 mean we have visited it already so it is repeated, we need not to 
+  multiply -1 this time but just need to store it in answer.Make sure to always take abs(index value) as it might have got negative in the process and when we will do -1 and try to go to the ToGoIndex wa are 
+  actually trying to move us to negative index which is for sure wrong in array.
+}}
 
 {{
 16-01-2024
