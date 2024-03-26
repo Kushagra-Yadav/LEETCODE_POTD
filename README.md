@@ -378,6 +378,13 @@ Check for level and value
 }}
 
 {{
+26-03-2024
+  missing will be from 1 to n.
+  Try to put all whose value are between 1 to n at respective indexes and also prevent infinite loop.eg: [1,1]
+  Now from start check from index wise who is missing, that is when index not equal to index+1 break and return index+1.
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
