@@ -385,6 +385,13 @@ Check for level and value
 }}
 
 {{
+27-03-2024
+  maintain i to j whose product is less than k nad every possible time do j-i which gives all subarray with j-1 as end
+  if product exceed divide by i and increase it.
+  It may be possible prod=1 and i>j  so make i++ then j=i and continue.
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
