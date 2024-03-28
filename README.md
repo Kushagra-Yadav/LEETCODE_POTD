@@ -392,6 +392,13 @@ Check for level and value
 }}
 
 {{
+28-03-2024
+  Create a window from i to j such that j-th element is included and if then check if its freq count exceed k we increase i and decreasing the frequency count of values at i till its value is not equal to j or 
+  i>=j
+  if val at i and j are equal decrease the frequency count and increase i.Keep track of maximum length
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
