@@ -399,6 +399,13 @@ Check for level and value
 }}
 
 {{
+29-03-2024
+  find mx of array
+  Start with i and j as 0 now move j and keep count of mx and it is greater than equal to k then for window i to j from j to size()-1 all subarray will have atleast k mx.
+  Now increase i and if still holds for i to j keep increasing answer.Now when i==mx so decrese ct but for this i to j still answer will exist with minimum k mx,but will leave the loop as ct<k mx will happen after this condition.So increase j and continue process. 
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
