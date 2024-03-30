@@ -406,6 +406,12 @@ Check for level and value
 }}
 
 {{
+30-03-2024
+countimg subarrays with AtMost k distinct - AtMost (k-1) distinct elements
+}} 
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
