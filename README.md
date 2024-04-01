@@ -410,6 +410,12 @@ Check for level and value
 countimg subarrays with AtMost k distinct - AtMost (k-1) distinct elements
 }} 
 
+{{
+01-04-2024
+   From end,search the first character.
+   After getting first character search for  ' '.
+   Now return the differnce of the indices above i.e first character encoutered and the first space ' ' from left ,if it is not existant then it will  go till index -1
+}}
 
 {{
 16-01-2024
