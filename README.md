@@ -418,6 +418,12 @@ countimg subarrays with AtMost k distinct - AtMost (k-1) distinct elements
 }}
 
 {{
+02-04-2024
+From s to t string ,map char of t to s then check are they correctly mapped from t to s.
+
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
