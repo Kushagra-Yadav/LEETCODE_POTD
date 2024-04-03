@@ -424,6 +424,12 @@ From s to t string ,map char of t to s then check are they correctly mapped from
 }}
 
 {{
+03-04-2024
+Bactracking question.
+Traverse all index of board and check that its horizontal || vertical moves lead to word by also marking the index visited with '+' and on backtract mark it with its previous original value ,instead of visited vector we can do this , as '+' will be never used and if it is '+' so it was visited and this path can not be used again for answer.
+}}
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
