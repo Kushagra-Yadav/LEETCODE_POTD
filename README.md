@@ -435,6 +435,13 @@ Traverse all index of board and check that its horizontal || vertical moves lead
 Just the count the net bracket open at any instant will be the max depth.
 }}
 
+
+{{
+05-04-2024
+We maintain a result string and if it is empty surely we need to add the char at index we are currently on,else we need to check that,  is the last element uppercase it it is in lower or lowercase if it is upper can be equal to char currently we are on so we can remove the last element from result else we need to add the char currently we are on.
+}}
+
+
 {{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
