@@ -443,6 +443,13 @@ We maintain a result string and if it is empty surely we need to add the char at
 
 
 {{
+06-04-2024
+Keep net count ( and if ( count is 0 and ) comes, make that place as 1 as it will be never possible.
+Now will have ( count greater than equal count ) .Now we will find extra ( after nullify with ) So we have to remove this number of (  but cannot do from start as they will be nullify so from end will make extra ( as 1 .Now will traverse from start and will keep that value which is not 1 in result string.
+}}
+
+
+{{
 16-01-2024
 Maintained map for checking presence of element and its index ,that is,where it is stored in a vector.
 For removal,find the element index and swap with last element.
